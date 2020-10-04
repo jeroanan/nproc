@@ -5,4 +5,6 @@
 (define scribblings '(("scribblings/nproc.scrbl" ())))
 (define pkg-desc "Description Here")
 (define version "0.0")
+(define pre-install-collection "private/install.rkt")
+(define compile-omit-files '("private/install.rkt"))
 (define pkg-authors '(drw))
